@@ -1,0 +1,68 @@
+/* CSS3盒子模型 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 取消h1~h6的加粗效果 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+/* 让em和i不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 取消a标签下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 去除li小圆点 */
+li {
+    list-style: none;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    /* 相当于在盒子末尾添加了一个伪元素（行内元素） */
+    content: "";
+    /* 转成块 */
+    display: block;
+    /* 兼容性写法 */
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+    /* 核心代码 */
+    clear: both;
+}
+
+/* 兼容IE6,7 */
+.clearfix {
+    *zoom: 1
+}
+
+/* 去除文本框轮廓线 */
+input,
+textarea {
+    outline: none;
+}
+
+/* 取消文本域的拖拽效果 */
+textarea {
+    resize: none;
+}
+
+/* 一般喜欢让img和文字以中线对齐 */
+/* 去除img底部缝隙问题 */
+img {
+    vertical-align: middle;
+}
