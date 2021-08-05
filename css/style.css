@@ -438,7 +438,6 @@ a {
 }
 a:hover {
   color: #0e0e0e;
-  border-bottom: 1px #0e0e0e solid;
 }
 figure.highlight {
   display: block;
