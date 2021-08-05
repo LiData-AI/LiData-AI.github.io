@@ -435,7 +435,6 @@ body {
 a {
   text-decoration: none;
   color: #686868;
-  border-bottom: 1px #686868 solid;
 }
 a:hover {
   color: #0e0e0e;
@@ -576,16 +575,6 @@ blockquote {
     overflow-x: hidden;
     max-width: none;
     width: auto;
-  }
-  .container::before {
-    content: '';
-    display: block;
-    position: relative;
-    height: 1px;
-    width: 10%;
-    background-color: #cdcdcd;
-    top: 3.5em;
-    margin: auto;
   }
   .Archives {
     padding: 0 16px;
