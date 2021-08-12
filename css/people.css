@@ -23,7 +23,6 @@ h6 {
 
 /* 人物 */
 .faculty {
-    /* text-align: center; */
     padding-top: 50px;
 }
 
@@ -39,7 +38,6 @@ h6 {
 .people {
     margin-bottom: 50px;
     width: 200px;
-    text-align: center;
 }
 
 .people img {
@@ -64,6 +62,11 @@ h6 {
     font-size: 15px;
 }
 
+.people .arr {
+    text-align: center;
+    width: 130px;
+}
+
 /* phd-students */
 .students h3 {
     font-size: 24px;
@@ -71,7 +74,6 @@ h6 {
 }
 
 .students ul {
-    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
