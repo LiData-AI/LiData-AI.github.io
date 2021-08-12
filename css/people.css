@@ -80,7 +80,7 @@ h6 {
 }
 
 .students ul li {
-    width: 160px;
+    width: auto;
     margin-right: 30px;
     margin-bottom: 30px;
 }
