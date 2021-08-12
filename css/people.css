@@ -138,11 +138,13 @@ h6 {
 @media (max-width:554px) {
     .students ul {
         justify-content: space-between;
+        -webkit-justify-content: space-between;
     }
 }
 
 @media (max-width:370px) {
     .students ul {
         justify-content: center;
+        -webkit-justify-content: center;
     }
 }
