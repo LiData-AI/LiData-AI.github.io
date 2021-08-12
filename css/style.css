@@ -583,6 +583,11 @@ blockquote {
     margin-left: 4%;
     margin-right: 4%;
   }
+  .information {
+    width: auto !important;
+    margin-left: 4% !important;
+    argin-right: 4% !important;
+  }
 }
 @media screen and (max-width: 450px) {
   html,
@@ -825,9 +830,9 @@ blockquote {
     position: absolute;
     left: 0;
     right: 0;
-    height: 10em;
+    height: 20em;
     width: auto;
-    overflow: visible;
+    overflow: hidden;
   }
   .menu {
     position: relative;
@@ -843,13 +848,16 @@ blockquote {
     min-width: 280px;
     margin: 0 auto;
     padding: 0;
+    padding-left: 14%;
+    padding-right: 14%;
   }
   .Btn > li {
     margin: 1em 0;
     padding: 0;
     flex: 1;
     border-right: none;
-    min-width: 70px;
+    min-width: 35px;
+    padding-right: 0.5em;
   }
   .media {
     bottom: -2.5em;

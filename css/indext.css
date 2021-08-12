@@ -30,6 +30,7 @@ h6 {
     border: 1px solid transparent;
     margin-top: 50px !important;
     text-align: center;
+    width: 100% !important;
 }
 
 .introduce img {
