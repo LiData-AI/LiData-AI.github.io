@@ -59,13 +59,21 @@ h6 {
 }
 
 /* 信息 */
+.information {
+    margin-top: 40px !important;
+}
+
 .information p {
     line-height: 1.5;
     font-size: 18px;
     color: #404040;
-    margin: 30px auto;
+    margin: 20px auto;
     /* 两端对齐实现 */
     text-align: justify;
+}
+
+.information h2,h3{
+    margin-top: 40px !important;
 }
 
 /* news */
