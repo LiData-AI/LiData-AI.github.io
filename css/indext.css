@@ -1,0 +1,117 @@
+body {
+    font-family: 'Raleway', 'Times New Roman', serif;
+}
+
+.w {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.w-1 {
+    width: 780px;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #404040;
+}
+
+/* 头 */
+
+/* 介绍 */
+.introduce {
+    border: 1px solid transparent;
+    margin-top: 50px !important;
+    text-align: center;
+    width: 100% !important;
+}
+
+.introduce img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.introduce h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.introduce .black {
+    width: 100px;
+    height: 3px;
+    background-color: #404040;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.introduce p {
+    margin-top: 15px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+/* 信息 */
+.information {
+    margin-top: 40px !important;
+}
+
+.information p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #404040;
+    margin: 20px auto;
+    /* 两端对齐实现 */
+    text-align: justify;
+}
+
+.information h2, h3 {
+    margin-top: 40px !important;
+}
+
+
+/* news */
+.new {
+    color: #404040;
+    font-family: averia sans libre;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.new-1 {
+    padding-left: 40px;
+    width: 750px;
+}
+
+.new-1 li {
+    padding-left: 10px;
+    list-style: square;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 18px;
+    color: #404040;
+    font-family: averia sans libre;
+}
+
+.oldernew {
+    padding: 30px 0 70px 0;
+}
+
+.oldernew a {
+    color: #7777bb;
+    font-size: 18px;
+}
+
+.oldernew a:hover {
+    color: #0085a1;
+    text-decoration: underline;
+}
+
+/* footer */
